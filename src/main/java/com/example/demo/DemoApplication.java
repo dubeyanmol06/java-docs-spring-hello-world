@@ -15,9 +15,6 @@ public class DemoApplication {
 
 	@RequestMapping("/")
 	String sayHello() {
-		int a=10;
-        	int b=0;
-        	int c=a/b;
 		return "Hello Capgemini";
 	}
 }
