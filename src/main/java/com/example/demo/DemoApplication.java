@@ -13,11 +13,21 @@ public class DemoApplication {
 		SpringApplication.run(DemoApplication.class, args);
 	}
 
-	@RequestMapping("/")
+	@RequestMapping("/hello")
 	String sayHello() {
+// 		int a=10;
+// 		int b=0;
+// 		int c=a/b;
+		System.out.println("Anmol");
+		return "Hello Capgemini";
+	}
+	
+	@RequestMapping("/error")
+	String sayException() {
 		int a=10;
 		int b=0;
 		int c=a/b;
+		System.out.println("Exception");
 		return "Hello Capgemini";
 	}
 }
