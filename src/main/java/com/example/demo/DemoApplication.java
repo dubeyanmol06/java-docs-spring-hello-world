@@ -18,8 +18,7 @@ public class DemoApplication {
 // 		int a=10;
 // 		int b=0;
 // 		int c=a/b;
-		throw new ArithmeticException();
-// 		System.out.println("Jai Shree Ram");
+		throw new ArithmeticException("Bolo Paao-bhaji exception");
 		return "Hello Capgemini";
 	}
 	
