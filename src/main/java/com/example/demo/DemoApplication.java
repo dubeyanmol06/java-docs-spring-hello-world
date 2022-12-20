@@ -15,10 +15,10 @@ public class DemoApplication {
 
 	@RequestMapping("/")
 	String sayHello() {
-		int a=10;
-		int b=0;
-		int c=a/b;
-// 		System.out.println("Anmol");
+// 		int a=10;
+// 		int b=0;
+// 		int c=a/b;
+		System.out.println("Jai Shree Ram");
 		return "Hello Capgemini";
 	}
 	
