@@ -15,10 +15,9 @@ public class DemoApplication {
 
 	@RequestMapping("/")
 	String sayHello() {
-// 		int a=10;
-// 		int b=0;
-// 		int c=a/b;
-		throw new ArithmeticException("Bolo Paao-bhaji exception");
+		int a=10;
+		int b=0;
+		int c=a/b;
 		return "Hello Capgemini";
 	}
 	
