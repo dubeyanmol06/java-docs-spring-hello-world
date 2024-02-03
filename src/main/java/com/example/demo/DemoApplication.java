@@ -18,7 +18,7 @@ public class DemoApplication {
 // 		int a=10;
 // 		int b=0;
 // 		int c=a/b;
-		return "Hello Capgemini..!";
+		return "Hello Capgemini...!";
 	}
 	
 // 	@RequestMapping("/error")
