@@ -18,7 +18,7 @@ public class DemoApplication {
 // 		int a=10;
 // 		int b=0;
 // 		int c=a/b;
-		return "Anmol's Java Application -- Dev Environment!";
+		return "Anmol's Java Application -- Prod Environment!";
 	}
 	
 // 	@RequestMapping("/error")
